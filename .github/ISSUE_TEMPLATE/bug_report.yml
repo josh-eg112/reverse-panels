@@ -1,0 +1,42 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug, beta]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for testing! Please don't include server URLs, Auth Keys, or passwords."
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings → About
+      placeholder: "1.0 (1)"
+    validations: {required: true}
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: "iPhone 15 Pro, iOS 18.1"
+    validations: {required: true}
+  - type: dropdown
+    id: source
+    attributes:
+      label: Comic source
+      multiple: true
+      options: [Kavita, OPDS, Nextcloud, iCloud Drive, On-device files]
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Reading mode (if relevant)
+      options: [Not relevant, Full page, Panel Flow]
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations: {required: true}
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or recordings
+      description: "For panel detection problems, a screenshot of the page helps the most."

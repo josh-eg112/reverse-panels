@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reverse Panels Beta</title>
+<meta name="description" content="Reverse Panels: a native iPhone and iPad comic reader for Kavita, OPDS, Nextcloud, iCloud Drive, and local files, with guided Panel Flow reading. Public beta.">
+<meta property="og:title" content="Reverse Panels Beta">
+<meta property="og:description" content="Read your way. A native iPhone and iPad comic reader for your own library.">
+<meta property="og:image" content="https://josh-eg112.github.io/reverse-panels/icon.png">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #f5f5f7; --surface: #ffffff; --text: #1d1d1f; --muted: #6e6e73;
+    --accent: #1d1d1f; --accent-text: #ffffff; --border: #d2d2d7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #000000; --surface: #161617; --text: #f5f5f7; --muted: #a1a1a6;
+      --accent: #f5f5f7; --accent-text: #000000; --border: #38383a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { text-align: center; }
+  header img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 8px 30px rgba(0,0,0,.18); }
+  h1 { font-size: 40px; letter-spacing: -0.02em; margin: 20px 0 4px; }
+  .tagline { font-size: 21px; color: var(--muted); margin: 0 0 8px; }
+  .badge { display: inline-block; font-size: 13px; font-weight: 600; padding: 3px 10px;
+           border: 1px solid var(--border); border-radius: 999px; color: var(--muted); }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 28px 0 8px; }
+  .button { display: inline-block; padding: 12px 20px; border-radius: 12px; font-weight: 600;
+            text-decoration: none; border: 1px solid var(--border); color: var(--text); background: var(--surface); }
+  .button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  .hint { text-align: center; color: var(--muted); font-size: 14px; }
+  section { background: var(--surface); border: 1px solid var(--border); border-radius: 18px;
+            padding: 24px; margin-top: 24px; }
+  h2 { font-size: 22px; margin: 0 0 12px; }
+  ul, ol { padding-left: 22px; margin: 0; }
+  li { margin: 6px 0; }
+  code { font: 14px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--bg);
+         border: 1px solid var(--border); border-radius: 6px; padding: 2px 6px; word-break: break-all; }
+  a { color: inherit; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Reverse Panels app icon" width="128" height="128">
+    <h1>Reverse Panels</h1>
+    <p class="tagline">Read your way.</p>
+    <span class="badge">Public beta · iOS &amp; iPadOS 17+</span>
+  </header>
+
+  <div class="actions">
+    <a class="button primary" href="sidestore://source?url=https://josh-eg112.github.io/reverse-panels/apps.json">Add to SideStore</a>
+    <a class="button" href="altstore://source?url=https://josh-eg112.github.io/reverse-panels/apps.json">Add to AltStore</a>
+    <a class="button" href="https://github.com/josh-eg112/reverse-panels/releases/latest">Download IPA</a>
+  </div>
+  <p class="hint">Open this page on your iPhone or iPad to add the source in one tap.</p>
+
+  <section>
+    <h2>A comic reader for your own library</h2>
+    <ul>
+      <li><b>Panel Flow:</b> guided panel-by-panel reading, left-to-right or right-to-left, powered by an on-device panel detector.</li>
+      <li><b>Your sources:</b> Kavita, any OPDS catalog, Nextcloud, iCloud Drive, and files on your device.</li>
+      <li><b>CBZ, CBR, and PDF</b>, with offline downloads.</li>
+      <li><b>Continue Reading, Favorites, and pinned locations</b> on the Library home screen.</li>
+      <li><b>Native and accessible:</b> light and dark mode, Dynamic Type, and VoiceOver.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Install</h2>
+    <ol>
+      <li>Install <a href="https://sidestore.io">SideStore</a> or <a href="https://altstore.io">AltStore</a>.</li>
+      <li>Tap <b>Add to SideStore</b> or <b>Add to AltStore</b> above, or add this source manually:<br>
+        <code>https://josh-eg112.github.io/reverse-panels/apps.json</code></li>
+      <li>Install <b>Reverse Panels</b>. New betas then appear as updates.</li>
+    </ol>
+    <p class="hint" style="text-align:left">Prefer another tool? Download the IPA and sign it with Sideloadly or similar. With a free Apple ID, apps must be refreshed every 7 days.</p>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p style="margin:0">No accounts, analytics, ads, or tracking. Reverse Panels talks only to the servers you add. Credentials stay in your device's Keychain, and panel detection runs entirely on your device. <a href="https://github.com/josh-eg112/reverse-panels/blob/main/PRIVACY.md">Details</a></p>
+  </section>
+
+  <footer>
+    <a href="https://github.com/josh-eg112/reverse-panels/issues/new/choose">Report a bug or suggest a feature</a> ·
+    <a href="https://github.com/josh-eg112/reverse-panels">GitHub</a><br>
+    Not affiliated with Kavita, Nextcloud, or Apple.
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "name": "Reverse Panels",
+  "identifier": "io.github.josh-eg112.reverse-panels",
+  "subtitle": "Beta builds of Reverse Panels",
+  "description": "A native iPhone and iPad comic reader for Kavita, OPDS, Nextcloud, iCloud Drive, and local files, with guided Panel Flow reading.",
+  "iconURL": "https://josh-eg112.github.io/reverse-panels/icon.png",
+  "website": "https://github.com/josh-eg112/reverse-panels",
+  "tintColor": "#2C2C2E",
+  "featuredApps": [
+    "com.comicreader.app"
+  ],
+  "apps": [
+    {
+      "name": "Reverse Panels",
+      "bundleIdentifier": "com.comicreader.app",
+      "developerName": "josh-eg112",
+      "subtitle": "Read your way.",
+      "localizedDescription": "Reverse Panels is a native iPhone and iPad comic reader for your own library.\n\n\u2022 Panel Flow: guided panel-by-panel reading, left-to-right or right-to-left, with an on-device panel detector\n\u2022 Kavita, OPDS, Nextcloud, iCloud Drive, and on-device files\n\u2022 CBZ, CBR, and PDF\n\u2022 Offline downloads, Continue Reading, and Favorites\n\u2022 No accounts, analytics, or tracking\n\nThis is a public beta. Please report bugs at github.com/josh-eg112/reverse-panels.",
+      "iconURL": "https://josh-eg112.github.io/reverse-panels/icon.png",
+      "tintColor": "#2C2C2E",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-10-04",
+          "localizedDescription": "Beta 1: First public beta.",
+          "downloadURL": "https://github.com/josh-eg112/reverse-panels/releases/download/v1.0-beta.1/ReversePanels-1.0-1.ipa",
+          "size": 8711436,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.0",
+      "versionDate": "2026-10-04",
+      "versionDescription": "Beta 1: First public beta.",
+      "downloadURL": "https://github.com/josh-eg112/reverse-panels/releases/download/v1.0-beta.1/ReversePanels-1.0-1.ipa",
+      "size": 8711436
+    }
+  ],
+  "news": []
+}
