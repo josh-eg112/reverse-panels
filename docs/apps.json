@@ -19,7 +19,35 @@
       "iconURL": "https://josh-eg112.github.io/reverse-panels/icon.png",
       "tintColor": "#2C2C2E",
       "category": "entertainment",
-      "screenshots": [],
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://josh-eg112.github.io/reverse-panels/screenshots/1.jpg",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://josh-eg112.github.io/reverse-panels/screenshots/2.jpg",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://josh-eg112.github.io/reverse-panels/screenshots/3.jpg",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://josh-eg112.github.io/reverse-panels/screenshots/4.jpg",
+            "width": 1320,
+            "height": 2868
+          },
+          {
+            "imageURL": "https://josh-eg112.github.io/reverse-panels/screenshots/5.jpg",
+            "width": 1320,
+            "height": 2868
+          }
+        ]
+      },
       "versions": [
         {
           "version": "1.0",

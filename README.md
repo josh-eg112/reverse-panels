@@ -13,6 +13,15 @@ A native iPhone and iPad comic reader for your own library: Kavita, OPDS, Nextcl
   <a href="https://github.com/josh-eg112/reverse-panels/issues/new/choose">Report a bug</a>
 </p>
 
+<p align="center">
+  <img src="docs/screenshots/1.jpg" width="160" alt="Immersive full-page reading">
+  <img src="docs/screenshots/2.jpg" width="160" alt="Panel Flow zoomed to a panel">
+  <img src="docs/screenshots/3.jpg" width="160" alt="Library with Continue Reading">
+  <img src="docs/screenshots/4.jpg" width="160" alt="Full-page reader controls">
+  <img src="docs/screenshots/5.jpg" width="160" alt="Settings">
+</p>
+<p align="center"><sub>Shown with <i>Little Nemo in Slumberland</i> by Winsor McCay (1905, public domain).</sub></p>
+
 > **Public beta.** Reverse Panels is in active development and is distributed for sideloading only;
 > it is not on the App Store yet. Expect rough edges, and please report them.
 
