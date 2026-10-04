@@ -23,11 +23,11 @@
       "versions": [
         {
           "version": "1.0",
-          "buildVersion": "1",
+          "buildVersion": "107",
           "date": "2026-10-04",
           "localizedDescription": "Beta 1: First public beta.",
-          "downloadURL": "https://github.com/josh-eg112/reverse-panels/releases/download/v1.0-beta.1/ReversePanels-1.0-1.ipa",
-          "size": 8711436,
+          "downloadURL": "https://github.com/josh-eg112/reverse-panels/releases/download/v1.0-beta.1/ReversePanels-1.0-107.ipa",
+          "size": 8711637,
           "minOSVersion": "17.0"
         }
       ],
@@ -38,8 +38,8 @@
       "version": "1.0",
       "versionDate": "2026-10-04",
       "versionDescription": "Beta 1: First public beta.",
-      "downloadURL": "https://github.com/josh-eg112/reverse-panels/releases/download/v1.0-beta.1/ReversePanels-1.0-1.ipa",
-      "size": 8711436
+      "downloadURL": "https://github.com/josh-eg112/reverse-panels/releases/download/v1.0-beta.1/ReversePanels-1.0-107.ipa",
+      "size": 8711637
     }
   ],
   "news": []

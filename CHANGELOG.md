@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0 (1), Beta 1
+## 1.0 (107), Beta 1
 
 First public beta.
 
@@ -11,4 +11,4 @@ First public beta.
 
 Known limitations:
 - Sideload only. Free Apple ID installs must be refreshed every 7 days.
-- Remote servers should use HTTPS.
+- Plain `http://` works only on your local network. Remote servers need HTTPS.

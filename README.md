@@ -63,6 +63,11 @@ do this automatically.
 In **Settings → Servers**, add your Kavita URL and an **Auth Key** created in Kavita under your
 user settings. The key is stored only in the iOS Keychain on your device.
 
+- **On your home network**, plain `http://` addresses work, for example `http://192.168.1.20:5000`
+  or `http://kavita.local:5000`. iOS asks once for permission to access the local network.
+- **Away from home**, use `https://`, for example through Tailscale, Cloudflare Tunnel, or a
+  reverse proxy with a certificate. iOS blocks plain HTTP to internet addresses.
+
 ## Privacy
 
 Reverse Panels has no accounts, analytics, ads, or tracking. It talks only to the servers and
