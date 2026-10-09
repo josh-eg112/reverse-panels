@@ -8,9 +8,10 @@
 A native iPhone and iPad comic reader for your own library: Kavita, OPDS, Nextcloud, iCloud Drive, and local files.</p>
 
 <p align="center">
-  <a href="https://github.com/josh-eg112/reverse-panels/releases/latest">Download the beta</a> ·
+  <a href="https://github.com/josh-eg112/reverse-panels-beta/releases">Download the beta</a> ·
   <a href="#install">Install</a> ·
-  <a href="https://github.com/josh-eg112/reverse-panels/issues/new/choose">Report a bug</a>
+  <a href="https://github.com/josh-eg112/reverse-panels/issues/new/choose">Report a bug</a> ·
+  <a href="https://ko-fi.com/reversepanels">Support on Ko-fi</a>
 </p>
 
 <p align="center">
@@ -54,14 +55,14 @@ sideloading tool signs it with your own Apple ID.
 2. Add this source:
 
    ```
-   https://josh-eg112.github.io/reverse-panels/apps.json
+   https://raw.githubusercontent.com/josh-eg112/reverse-panels-beta/main/source.json
    ```
 
 3. Install **Reverse Panels** from the source. New betas then show up as updates.
 
 ### Option B: Download the IPA
 
-Download the latest `.ipa` from [Releases](https://github.com/josh-eg112/reverse-panels/releases/latest)
+Download the latest `.ipa` from [Releases](https://github.com/josh-eg112/reverse-panels-beta/releases)
 and install it with Sideloadly, AltStore, SideStore, or a similar tool.
 
 With a free Apple ID, sideloaded apps must be refreshed every 7 days. SideStore and AltStore can
@@ -91,6 +92,18 @@ downloads stay on your device or your own server. See [PRIVACY.md](PRIVACY.md).
 - Please don't post server URLs, Auth Keys, or passwords in issues.
 
 See [CHANGELOG.md](CHANGELOG.md) for what changed in each beta.
+
+## Support Reverse Panels
+
+Reverse Panels is free and built in spare time. Right now betas go out through SideStore, which means
+re-signing every 7 days. An Apple Developer licence ($99 USD/year) would move it to TestFlight and,
+eventually, the App Store.
+
+If you enjoy the app and want to help get it there:
+
+[![Support Reverse Panels on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/reversepanels)
+
+Every coffee goes toward the developer licence. Thank you!
 
 ## License and notices
 

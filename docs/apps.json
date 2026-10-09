@@ -13,7 +13,7 @@
     {
       "name": "Reverse Panels",
       "bundleIdentifier": "com.comicreader.app",
-      "developerName": "josh-eg112",
+      "developerName": "Reverse Panels",
       "subtitle": "Read your way.",
       "localizedDescription": "Reverse Panels is a native iPhone and iPad comic reader for your own library.\n\n\u2022 Panel Flow: guided panel-by-panel reading, left-to-right or right-to-left, with an on-device panel detector\n\u2022 Kavita, OPDS, Nextcloud, iCloud Drive, and on-device files\n\u2022 CBZ, CBR, and PDF\n\u2022 Offline downloads, Continue Reading, and Favorites\n\u2022 No accounts, analytics, or tracking\n\nThis is a public beta. Please report bugs at github.com/josh-eg112/reverse-panels.",
       "iconURL": "https://josh-eg112.github.io/reverse-panels/icon.png",
@@ -49,6 +49,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "113",
+          "date": "2026-10-08",
+          "localizedDescription": "Welcome intro on first launch, dark launch screen, iCloud Drive fix. Future betas are published at https://raw.githubusercontent.com/josh-eg112/reverse-panels-beta/main/source.json",
+          "downloadURL": "https://github.com/josh-eg112/reverse-panels-beta/releases/download/v1.0-b113/ReversePanels-1.0-113.ipa",
+          "size": 8735389,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.0",
           "buildVersion": "107",
